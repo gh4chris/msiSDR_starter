@@ -1,18 +1,15 @@
-this is an Software Define Radio receiver PCB project base on msi2500 and msi001. use kicad to view it
+This is a Software Defined Radio (SDR) receiver PCB project based on the MSI2500 and MSI001 chips.
 
-这是一个基于msi2500 和 msi001的软件无线电PCB工程项目， 使用kiCAD浏览此工程
+Use KiCad to view the project.
 
-如果需要PCB打样，把gerber目录下的文件发给PCB加工厂即可
+If you need to manufacture the PCB, just send the files from the gerber directory to a PCB factory.
 
-Send gerbar files to PCB factory . you'd better to use SMT
+It is recommended to have the factory do SMT assembly. Manual soldering is prone to many bugs/errors.
 
-建议叫工厂SMT贴片，手动焊接容易太多bug
+The software to use is SDRuno (select SDRplay).
+Software is compatible with SDRplay.
 
-软件使用SDRuno（选SDRPlay）
-
-software compatible with SDRplay
-
-使用效果
+Usage / Results (demo photos)
 
 ![PCB](./pcb.jpg)
 
